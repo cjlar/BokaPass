@@ -4,6 +4,8 @@ from selenium.webdriver.support.ui import Select
 import os
 import datetime
 
+
+# os.environ['PATH'] += "Add chromedriver path here if needed"
 def findTime(lastDesiredDate, firstDesiredDate, sections, numberOfPeople):
     foundTime = False
     while not foundTime:
